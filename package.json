@@ -1,0 +1,19 @@
+{
+    "name": "mevn-stack",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+      "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+      "dev:client": "cd client && vite",
+      "dev:server": "cd server && nodemon server.js",
+      "build": "cd client && vite build",
+      "start": "cd server && node server.js",
+      "install": "cd server && npm i && cd ../client && npm i"
+    },
+    "dependencies": {
+      "concurrently": "^7.6.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    }
+  }
