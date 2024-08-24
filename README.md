@@ -2,7 +2,7 @@
 
 # My Vue + Express App
 
-This project is a full-stack application with a Vue.js frontend using Vite and an Express.js backend.
+This project is a full-stack application with a Vue.js frontend using Vite and an Express.js and nodemon backend.
 
 ## Getting Started
 
