@@ -9,6 +9,7 @@ export default defineConfig({
   },
   // create a proxy to avoid CORS issues in development:
   server: {
+    open: true,
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
